@@ -1,12 +1,12 @@
-name: covidata
+name: vira
 version: git
-summary: CoviData
-description: A Tool to get the data about COVID-19 Pandemic
+summary: VIRA
+description: A Calculator for Calculating
 base: core18
 confinement: devmode
 
 parts:
-  covidata:
+  vira:
     plugin: python
     python-version: python3
     source: .
@@ -14,5 +14,5 @@ parts:
       - python-six
 
 apps:
-  covidata:
-    command: covidata
+  vira:
+    command: vira

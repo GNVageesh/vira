@@ -1,4 +1,4 @@
-from covidata.display_win import display
+from vira.display_win import display
 
 
 def gui():

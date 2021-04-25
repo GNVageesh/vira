@@ -16,9 +16,9 @@ def readme():
 
 
 setup(
-    name='covidata',
+    name='vira',
     version='1.0.0',
-    description='A Utility To Get Details About COVID19',
+    description='A Calculator for Calculating',
     long_description=readme(),
     long_description_content_type="text/markdown",
     author='GN Vageesh',
@@ -35,15 +35,15 @@ setup(
     ],
     license='MIT',
     keywords=['python', 'python3', 'details',
-              'covid', 'pandemic', 'data', 'research', 'gui'],
+              'math', 'calculator', 'data', 'research', 'gui'],
     maintainer='GN Vageesh',
     maintainer_email='vageeshgn2005@gmail.com',
-    download_url='https://github.com/GNVageesh/covidata',
+    download_url='https://github.com/GNVageesh/vira',
     packages=find_packages(),
     include_package_data=True,
     install_requires=read_requirements(),
     entry_points='''
         [console_scripts]
-        covidata=covidata.gui:gui
+        vira=vira.gui:gui
     '''
 )

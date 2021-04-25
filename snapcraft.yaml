@@ -1,0 +1,18 @@
+name: covidata
+version: git
+summary: CoviData
+description: A Tool to get the data about COVID-19 Pandemic
+base: core18
+confinement: devmode
+
+parts:
+  covidata:
+    plugin: python
+    python-version: python3
+    source: .
+    stage-packages:
+      - python-six
+
+apps:
+  covidata:
+    command: covidata

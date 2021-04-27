@@ -17,7 +17,7 @@ def readme():
 
 setup(
     name='vira',
-    version='1.0.0',
+    version='1.0.2',
     description='A Calculator for Calculating',
     long_description=readme(),
     long_description_content_type="text/markdown",

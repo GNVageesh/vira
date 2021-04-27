@@ -1,9 +1,9 @@
 name: vira
-version: git
+version: '1.0.2'
 summary: VIRA
 description: A Calculator for Calculating
 base: core18
-confinement: devmode
+confinement: strict
 
 parts:
   vira:

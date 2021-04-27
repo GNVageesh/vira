@@ -12,7 +12,7 @@ class Window(QMainWindow):
         super().__init__()
 
         # setting title
-        self.setWindowTitle("vagcal")
+        self.setWindowTitle("VIRA")
 
         # setting geometry
         self.setGeometry(100, 100, 360, 350)
